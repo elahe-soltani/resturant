@@ -1,0 +1,26 @@
+.container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:rgba(0,0,0,0.1) 0px 4px 12px ;
+    border-radius:4px ;
+    direction: rtl;
+    
+}
+
+.btn{
+    background-color:  rgb(224, 38, 38);
+    color: white;
+    font-size:15px ;
+    font-weight: 500;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 5px; 
+}
+.btn:hover{
+    background-color: white;
+    border:  rgb(224, 38, 38) 1px solid;
+    color: rgb(224, 38, 38)
+}

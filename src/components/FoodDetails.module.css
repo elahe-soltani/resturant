@@ -1,0 +1,19 @@
+.container{
+    direction: rtl;
+    padding-right:10px ;
+    color: rgb(51, 51, 51);
+}
+.name{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.price{
+    font-size: 18px;
+    font-weight:100;
+    margin-top: 7px;
+}
+.details{
+    font-size:15px;
+    color:rgb(136, 136, 136);
+}

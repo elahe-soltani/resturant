@@ -1,0 +1,112 @@
+.container{
+    border: 1px solid rgb(204, 204, 204);
+    width: 277px;
+    height: 270px;
+    direction: rtl;
+}
+.container img{
+    width:100% ;
+    height:160px ;
+}
+.name{
+    direction: rtl;
+    font-weight: 600;
+    color: rgb(51, 51, 51) ;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.price{
+    color: rgb(51, 51, 51) ;
+    padding-right: 5px;
+    direction: rtl;
+    font-size: 15px;
+}
+.btn{
+    border-radius: 50%;
+    color: white;
+    background-color:rgb(224, 38, 38);
+    border: 1px solid  rgb(224, 38, 38) ;
+    width: 30px;
+    height: 30px;
+    line-height: 1px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(224, 38, 38);
+}
+.counter{
+    text-align: center;
+    padding-left: 5px;
+    
+}
+.btnAdd{
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 1px solid  rgb(224, 38, 38) ;
+    width: 30px;
+    height: 30px;
+    line-height: 1px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btnAdd:hover{
+    background-color:  rgb(224, 38, 38);
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.btnUpdate{
+    background-color: rgb(224, 38, 38) ;
+    color: white;
+    width: 200px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 5px; 
+    direction: rtl;
+}
+.btnDisabled{
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    background-color:  rgb(204, 204, 204);
+    border: none;
+    border-radius: 5px;
+}
+.btnUpdate span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 12px;
+}
+@media (max-width: 992px) {
+    .container{
+        width:100%;
+        height: 330px;
+    }
+    .container img{
+        height: 213px;
+    }
+    
+  }
